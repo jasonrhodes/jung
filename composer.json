@@ -1,0 +1,15 @@
+{
+    "name": "rhodesjason/jung",
+    "description": "Fast signatures for PHP variables, based on node sigmund.",
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Rhodes",
+            "email": "jason.matthew.rhodes@gmail.com"
+        }
+    ],
+    "require": {}
+}
