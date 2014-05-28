@@ -14,7 +14,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "rhodesjason": "src/rhodesjason"
+      "rhodesjason\\": "src/rhodesjason"
     }
   }
 }
