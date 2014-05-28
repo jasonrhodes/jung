@@ -4,6 +4,8 @@ jung
 Fast signatures for PHP variables, useful for making cache keys, based on node sigmund.
 
 ```php
+require "vendor/autoload.php";
+
 use \rhodesjason\Jung as jung;
 
 jung::sign(55);             // "55"
