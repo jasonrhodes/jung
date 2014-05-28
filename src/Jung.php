@@ -4,7 +4,7 @@ namespace rhodesjason;
 
 class Jung {
 
-  public static function analyze($subject) {
+  public static function sign($subject) {
 
     $max = 10;
     $analysis = "";

@@ -1,6 +1,6 @@
 {
     "name": "rhodesjason/jung",
-    "description": "Fast signatures for PHP variables, based on node sigmund.",
+    "description": "Fast signatures for PHP variables, useful for making cache keys, based on node sigmund.",
     "require-dev": {
         "phpunit/phpunit": "4.1.*"
     },
