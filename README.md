@@ -1,7 +1,7 @@
 jung
 ====
 
-Fast signatures for PHP variables, useful for making cache keys, based on node sigmund.
+Fast signatures for PHP variables, useful for making cache keys, based on [node sigmund](https://github.com/isaacs/sigmund).
 
 ```php
 require "vendor/autoload.php";
@@ -20,3 +20,6 @@ $a->obj = new stdClass;
 $a->obj->words = "a cool thing";
 
 jung::sign($a);             // "{fruitapplelist{011324obj{wordsa cool thing"
+```
+
+Note: Just like isaacs' sigmund, these signatures are fast and great for cache keys, but you can't get the original value back so it's not useful for much else.
