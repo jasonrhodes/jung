@@ -1,15 +1,20 @@
 {
-    "name": "rhodesjason/jung",
-    "description": "Fast signatures for PHP variables, useful for making cache keys, based on node sigmund.",
-    "require-dev": {
-        "phpunit/phpunit": "4.1.*"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jason Rhodes",
-            "email": "jason.matthew.rhodes@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "rhodesjason/jung",
+  "description": "Fast signatures for PHP variables, useful for making cache keys, based on node sigmund.",
+  "require-dev": {
+    "phpunit/phpunit": "4.1.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jason Rhodes",
+      "email": "jason.matthew.rhodes@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "rhodesjason": "src/rhodesjason"
+    }
+  }
 }
