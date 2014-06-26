@@ -23,5 +23,3 @@ jung::sign($a);             // "{fruitapplelist{011324obj{wordsa cool thing"
 ```
 
 Note: Just like isaacs' sigmund, these signatures are fast and great for cache keys, but you can't get the original value back so it's not useful for much else.
-
-<img src="http://robohash.org/rhodesjason.png?size=600x600" width="300" height="300" />
